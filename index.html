@@ -3,16 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youtube Home Page</title>
+    <title>Youtube</title>
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <div id="root">
         <div id="container">
             <header>
+
+                <button class="menu_header" id="openMenu">
+                    <span>&#8801;</span>
+                </button>
+
                 <strong>
-                    Search Bar
+                    Youtube
                 </strong>
+
+                <div class="search_area_header">
+                    <div class="search_box">
+                        <input 
+                            type="text" 
+                            class="search_inp"
+                            placeholder="Search..."
+                        />
+                            
+                        <button id="searchBtn">
+                            <img src="#">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="account_area_header">
+                    <div class="notifications_area">
+                        <span class="countNotifications">0</span>
+                        <img src="#" alt="#">
+                    </div>
+
+                    <button class="user_account_area">
+                        <img src="#" alt="#">
+                    </button>
+                </div>
             </header>
     
             <div id="videos_view_ctr">
